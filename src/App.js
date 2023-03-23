@@ -9,7 +9,7 @@ import "./App.css"
 import {MainPage,
 ContactPage,
 AboutPage,
-PricingPage} from './MainPage.js'
+PricingPage} from './webPages.js'
 import 'bootstrap'
 
 export default function App() {
