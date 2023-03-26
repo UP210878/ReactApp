@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import "./App.css"
 import {MainPage,
@@ -11,52 +10,23 @@ ContactPage,
 AboutPage,
 PricingPage} from './MainPage.js'
 import 'bootstrap'
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <Router>
+      <Header/>
       <div>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-4">
-          <ul class="navbar-nav sm-icons">
-          <Link to="/" class= "navbar-brand">New Product</Link>
-            <li>
-              <Link to="/" class= "nav-link">Home</Link> 
-            </li>
-            <li>
-              <Link to="/about" class= "nav-link"> About</Link>
-            </li>
-            <li>
-              <Link to="/pricing" class= "nav-link"> Pricing</Link>
-            </li>
-            <li>
-              <Link to="/contact" class= "nav-link"> Contact</Link>
-            </li>
-          </ul>
-        </nav>
-
         <Routes>
-          <Route path="/about" element= {<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/about" element= {<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
         </Routes>
       </div>
+      <Footer pagina = "hol" />
     </Router>
   );
 }
 
-function Home() {
-  return <div><MainPage></MainPage></div>;
-}
-
-function About() {
-  return <h2><AboutPage></AboutPage></h2>;
-}
-
-function Contact() {
-  return <h2><ContactPage></ContactPage></h2>;
-}
-
-function Pricing() {
-  return <h2><PricingPage></PricingPage></h2>;
-}
