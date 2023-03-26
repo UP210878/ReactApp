@@ -8,7 +8,7 @@ import "./App.css"
 import {MainPage,
 ContactPage,
 AboutPage,
-PricingPage} from './MainPage.js'
+PricingPage} from './webPages.js'
 import 'bootstrap'
 import Footer from "./components/Footer";
 import Header from "./components/Header";
