@@ -40,3 +40,8 @@ background-color: black !important;
     transform: rotate(360deg);
   }
 }
+
+#intro{
+  background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+  height: 80vh;
+}

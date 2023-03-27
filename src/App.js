@@ -8,7 +8,7 @@ import "./App.css"
 import {MainPage,
 ContactPage,
 AboutPage,
-PricingPage} from './webPages.js'
+Featured} from './webPages.js'
 import 'bootstrap'
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/about" element= {<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/" element={<MainPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/featured" element={<Featured />} />
         </Routes>
       </div>
       <Footer pagina = "hol" />
