@@ -1,4 +1,4 @@
-const Footer = ({ pagina }) => {
+const Footer = () => {
   return (
     <body class="d-flex flex-column min-vh-100">
     <footer class="text-center text-white bg-dark mt-auto">

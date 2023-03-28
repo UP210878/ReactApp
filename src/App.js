@@ -5,10 +5,6 @@ import {
   Route,
 } from "react-router-dom";
 import "./App.css"
-import {MainPage,
-ContactPage,
-AboutPage,
-Featured} from './webPages.js'
 import 'bootstrap'
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -19,14 +15,15 @@ export default function App() {
       <Header/>
       <div>
         <Routes>
-          <Route path="/about" element= {<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
           <Route path="/" element={<MainPage />} />
-          <Route path="/featured" element={<Featured />} />
         </Routes>
       </div>
-      <Footer pagina = "hol" />
+      <Footer/>
     </Router>
   );
+}
+
+function MainPage(){
+  return <h2>Hola</h2>
 }
 
