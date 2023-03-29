@@ -23,6 +23,6 @@ export default function App() {
 }
 
 function MainPage(){
-  return <h2></h2>
+  return <h2>s</h2>
 }
 

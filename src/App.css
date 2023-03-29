@@ -48,3 +48,36 @@ background-color: black !important;
   width: 100%;
 }
 
+.header_Text, .header_Text_Selected{
+  font-family: Armin Grotesk Black;
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 45em){
+.header_Text_Selected {
+  color: #232323;
+  cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 45em){
+.header_Text, .header_Text_Selected {
+    font-family: Armin Grotesk Black;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}}
+
+.header_Text_Selected {
+  color: #232323;
+}
+
+.header_Text, .header_Text_Selected {
+  cursor: pointer;
+  font-family: Armin Grotesk Black;
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}

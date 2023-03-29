@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import "../App.css";
+import handleLanguage from "./LanguageSwitch";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <div class="flex justify-between items-center h-full md:mx-7 mx-5">
         <div class="flex flex-row h-full-items-center">
           <div class="md:mx-1 lg:ml-2 lg:mr-10 sm:mx-2">
-            <button style={{outline:'none'}}>
+            <button style={{ outline: "none" }}>
               <svg
                 width={"45.84"}
                 height={"45.95"}
@@ -45,6 +45,14 @@ const Header = () => {
                 ></path>
               </svg>
             </button>
+          </div>
+        </div>
+        <div class="hidden md:flex md:flex-row justify-between color_text_Subdued">
+          <div class="mx-2">
+            <button type="button" onClick={handleLanguage} style={{ outline: "none" }} class="header_Text">ENG</button>
+          </div>
+          <div class="mx-2">
+            <button type="button" onClick={handleLanguage} style={{ outline: "none" }} class="header_Text">ESP</button>
           </div>
         </div>
       </div>
