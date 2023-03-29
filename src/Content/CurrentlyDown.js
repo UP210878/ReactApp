@@ -1,8 +1,8 @@
 import { sendEmailButton, linkedinButton } from "../components/Buttons";
 
-function mainPage() {
+function mainPage({idioma}) {
   return (
-    <>
+    <><p style={{fontSize:'500%'}}>{idioma === "en"?"Hi":"Que ondas"}</p>
       <div class="pt-5">
         <section class="p-5 mt-5">
 {/* Texto va aqui */}

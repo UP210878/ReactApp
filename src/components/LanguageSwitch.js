@@ -1,7 +1,18 @@
 import "../App.css";
+import { language } from "./Header";
 
-const handleLanguage = () => {
-    return (<></>)
+function handleLanguage(){
+    if (language === "en") {
+        language = "es"
+    }
+
+    else if (language === "es") {
+        language = "en"
+    }
+    
+    else {
+        return "en"
+    }
 }
 
 export default handleLanguage;
