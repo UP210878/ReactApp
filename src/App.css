@@ -74,6 +74,12 @@ background-color: black !important;
   color: #232323;
 }
 
+.footerColor {
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  background: linear-gradient(90deg,rgba(65,192,240,.9) -45.79%,rgba(47,82,160,.9) 153.58%);
+}
+
 .header_Text, .header_Text_Selected {
   cursor: pointer;
   font-family: Armin Grotesk Black;
