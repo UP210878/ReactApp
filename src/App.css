@@ -87,3 +87,23 @@ background-color: black !important;
   margin: 0;
   text-transform: uppercase;
 }
+.footer_Text_Hermes, .text_Body {
+  font-family: Armin Grotesk Ultralight;
+}
+
+.color_Text_Base_Backgorund {
+  color: #fafafa;
+}
+
+.footer_Text_Hermes {
+  font-size: 19px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.footer_Text_Address {
+  font-family: Armin Grotesk Ultralight;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+}

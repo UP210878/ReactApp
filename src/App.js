@@ -7,7 +7,7 @@ import {
 import "./App.css"
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import mainPage from "./web/webPage";
+import mainPage from "./Content/CurrentlyDown";
 
 export default function App() {
   return (
