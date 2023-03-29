@@ -15,7 +15,7 @@ export default function App() {
       <Header/>
       <div>
         <Routes>
-          <Route path="/" element={mainPage({idioma: "en"})} />
+          <Route path="/" element={mainPage()} />
         </Routes>
       </div>
       <Footer/>
