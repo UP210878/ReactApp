@@ -27,7 +27,7 @@ export const sendEmailButton = () => {
 };
 
 export const linkedinButton = () => {
-  return (
+  return (<a href="https://mx.linkedin.com/company/hermes-corp" rel="noreferrer" target={'_blank'}>
     <button
       type="button"
       class="inline-flex outline-none focus:outline-none space-x-3 items-center px-2.5 py-2.5 bg-blue-400 hover:bg-blue-600 rounded-2xl drop-shadow-md"
@@ -46,7 +46,7 @@ export const linkedinButton = () => {
           d="M5.82,26H.43V8.64H5.82ZM3.12,6.27A3.14,3.14,0,1,1,5.33.91,3.15,3.15,0,0,1,3.12,6.27ZM26,26H20.62V17.55c0-2-.05-4.6-2.81-4.6s-3.23,2.19-3.23,4.45V26H9.2V8.64h5.17V11h.07a5.67,5.67,0,0,1,5.1-2.8C25,8.21,26,11.8,26,16.46V26Z"
         />
       </svg>
-    </button>
+    </button></a>
   );
 };
 
