@@ -7,6 +7,7 @@ import {
 import "./App.css"
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import mainPage from "./web/webPage";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
       <Header/>
       <div>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={mainPage()} />
         </Routes>
       </div>
       <Footer/>
@@ -22,7 +23,4 @@ export default function App() {
   );
 }
 
-function MainPage(){
-  return <h2>s</h2>
-}
 
