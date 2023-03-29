@@ -94,14 +94,27 @@ background-color: black !important;
   font-family: Armin Grotesk Ultralight;
 }
 
+.text_Big {
+  font-family: Armin Grotesk Black;
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+
 @font-face {
   font-family: Armin Grotesk Black;
-  src: url(./Fonts/Fontspring-DEMO-armingrotesk-black.otf);
+  src: url(./Fonts/Armin\ Grotesk\ Black.otf);
 }
 
 @font-face {
   font-family: Armin Grotesk Ultralight;
-  src: url(./Fonts/Fontspring-DEMO-armingrotesk-ultralight.otf);
+  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Light.otf);
+}
+
+@font-face {
+  font-family: Armin Grotesk Ultrabold;
+  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
 }
 
 .color_Text_Base_Backgorund {
