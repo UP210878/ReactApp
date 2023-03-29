@@ -70,6 +70,9 @@ background-color: black !important;
     text-transform: uppercase;
 }}
 
+.header_Text {
+  color: #b5b5b5;
+}
 .header_Text_Selected {
   color: #232323;
 }
@@ -89,6 +92,16 @@ background-color: black !important;
 }
 .footer_Text_Hermes, .text_Body {
   font-family: Armin Grotesk Ultralight;
+}
+
+@font-face {
+  font-family: Armin Grotesk Black;
+  src: url(./Fonts/Fontspring-DEMO-armingrotesk-black.otf);
+}
+
+@font-face {
+  font-family: Armin Grotesk Ultralight;
+  src: url(./Fonts/Fontspring-DEMO-armingrotesk-ultralight.otf);
 }
 
 .color_Text_Base_Backgorund {

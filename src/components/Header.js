@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <div class="hidden md:flex md:flex-row justify-between color_text_Subdued">
           <div class="mx-2">
-            <p onClick={handleLanguage} style={{ outline: "none" }} class="header_Text">ENG</p>
+            <p onClick={handleLanguage} style={{ outline: "none" }} class="header_Text_Selected">ENG</p>
           </div>
           <div class="mx-2">
           <p onClick={handleLanguage} style={{ outline: "none" }} class="header_Text">ESP</p>          </div>
