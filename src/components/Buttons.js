@@ -4,7 +4,7 @@ export const sendEmailButton = () => {
   return (
     <button
       type="button"
-      class="inline-flex outline-none focus:outline-none tracking-wide space-x-3 items-center px-3 py-2.5 bg-blue-400 hover:bg-blue-600 rounded-2xl drop-shadow-md"
+      class="transition ease-in-out delay-100 hover:scale-110 inline-flex outline-none focus:outline-none tracking-wide space-x-3 items-center px-3 py-2.5 bg-blue-400 hover:bg-blue-600 rounded-2xl drop-shadow-md"
     >
       <svg
         class="w-6"
@@ -30,7 +30,7 @@ export const linkedinButton = () => {
   return (<a href="https://mx.linkedin.com/company/hermes-corp" rel="noreferrer" target={'_blank'}>
     <button
       type="button"
-      class="inline-flex outline-none focus:outline-none space-x-3 items-center px-2.5 py-2.5 bg-blue-400 hover:bg-blue-600 rounded-2xl drop-shadow-md"
+      class="transition ease-in-out delay-100 hover:scale-110 inline-flex outline-none focus:outline-none space-x-3 items-center px-2.5 py-2.5 bg-blue-400 hover:bg-blue-600 rounded-2xl drop-shadow-md"
     >
       <svg
       class="w-6"
