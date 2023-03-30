@@ -199,3 +199,34 @@ background-color: black !important;
   font-family: Armin Grotesk Ultrabold;
   src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
 }
+
+.circle {
+  float: left;
+  width: 1800px;
+  height: 1800px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: white;
+  border-radius: 50%;
+  border: solid 3px #4893ff !important;
+  overflow:visible;
+  position: relative;
+  left: -400px;
+  top: -600px; /* Evitar que el contenido se visualice fuera del borde*/
+
+}
+
+.badge {
+  height: 2100px;
+  width: 2100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: white;
+  border: solid 3px #4893ff;
+  position: sticky;
+  left: -80px;
+  top: -100px;
+}
