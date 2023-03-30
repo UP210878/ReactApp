@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import CurrentlyDown from "./Content/CurrentlyDown";
 import { DataProvider } from "./Context/DataContext";
+import {SendEmailButton,LinkedinButton} from "./components/Buttons";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
         <Header />
         <div>
           <Routes>
-            <Route path="/" element={CurrentlyDown()} />
+            <Route path="/" element={<CurrentlyDown/>} />
           </Routes>
         </div>
         <Footer />
