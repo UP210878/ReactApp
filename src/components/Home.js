@@ -1,5 +1,6 @@
 import React,{useContext} from "react";
 import DataContext from "../Context/DataContext";
+import '../App.css'
 
 const Home = () => {
   const {language} = useContext(DataContext);
@@ -14,7 +15,7 @@ const Home = () => {
       </div>
       <div className="row">
         <div className="col-12">
-          <div className="content_Text_Title">
+          <div class="content_Text_Title">
             <p className="home.heading.Title">{language === "en"?"WE'RE IMPROVING OUR WIRES TO GIVE YOU A BETTER EXPERIENCE":"ESTAMOS MEJORANDO NUESTRA CONEXIÓN PARA BRINDAR UNA MEJOR EXPERIENCIA "}
             </p>
           </div>

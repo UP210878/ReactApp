@@ -8,7 +8,7 @@ const CurrentlyDown = () => {
   return (
     <>
       <div class="p-5">
-        <section class="p-5 mt-5">{Home()}</section>
+        <section class="p-20 mt-5">{Home()}</section>
         <div class="mx-5 px-3">
         <div class="px-5 mx-5 space-x-3">
           {SendEmailButton()} {LinkedinButton()}

@@ -102,20 +102,6 @@ background-color: black !important;
 }
 
 
-@font-face {
-  font-family: Armin Grotesk Black;
-  src: url(./Fonts/Armin\ Grotesk\ Black.otf);
-}
-
-@font-face {
-  font-family: Armin Grotesk Ultralight;
-  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Light.otf);
-}
-
-@font-face {
-  font-family: Armin Grotesk Ultrabold;
-  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
-}
 
 .color_Text_Base_Backgorund {
   color: #fafafa;
@@ -137,6 +123,24 @@ background-color: black !important;
 /* COLORS */
 .color_text_Content {
   color: #232323;
+}
+
+.content_Text_Title {
+  margin: 0;
+  font-family: Armin Grotesk Black;
+  font-size: 99px;
+  line-height: 103px;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.content_Text_Subtitle {
+  margin: 0;
+  font-family: Armin Grotesk Black;
+  font-size: 34.3321px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: start;
 }
 
 /* 1260px */
@@ -163,7 +167,7 @@ background-color: black !important;
 
   .content_Text_Title {
     margin: 0;
-    font-family: "Armin Grotesk Black";
+    font-family: Armin Grotesk Black;
     font-size: 99px;
     line-height: 103px;
     text-transform: uppercase;
@@ -172,11 +176,26 @@ background-color: black !important;
 
   .content_Text_Subtitle {
     margin: 0;
-    font-family: "Armin Grotesk Black";
+    font-family: Armin Grotesk Black;
     font-size: 34.3321px;
     line-height: 40px;
     text-transform: uppercase;
     text-align: start;
   }
 
+}
+
+@font-face {
+  font-family: Armin Grotesk Black;
+  src: url(./Fonts/Armin\ Grotesk\ Black.otf);
+}
+
+@font-face {
+  font-family: Armin Grotesk Ultralight;
+  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Light.otf);
+}
+
+@font-face {
+  font-family: Armin Grotesk Ultrabold;
+  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
 }
