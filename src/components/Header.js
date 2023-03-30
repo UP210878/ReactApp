@@ -1,17 +1,10 @@
-import React,{useState} from "react";
+import React,{useContext, useState} from "react";
 import "../App.css";
 import HermesLogo from "../Icons/HermesLogo";
+import DataContext from "../Context/DataContext";
 
 const Header = () => {
-  const [language,setLanguage] = useState('en')
-  const HandleLanguage=()=>{
-    if (language ==='en'){
-      setLanguage('es')
-    }
-    else{
-      setLanguage('en')
-    }
-  }
+  const {language,HandleLanguage} = useContext(DataContext)
     return (
     <nav class="headerColor h-[89.95px] fixed z-20">
       <div class="flex justify-between items-center h-full md:mx-7 mx-5">

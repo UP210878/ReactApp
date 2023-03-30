@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import "../App.css";
+import DataContext from "../Context/DataContext";
 
-export const sendEmailButton = () => {
+export const SendEmailButton = () => {
+  const {language} = useContext(DataContext)
   return (
     <button
       type="button"
@@ -26,7 +29,7 @@ export const sendEmailButton = () => {
   );
 };
 
-export const linkedinButton = () => {
+export const LinkedinButton = () => {
   return (<a href="https://mx.linkedin.com/company/hermes-corp" rel="noreferrer" target={'_blank'}>
     <button
       type="button"
@@ -50,4 +53,4 @@ export const linkedinButton = () => {
   );
 };
 
-export default sendEmailButton;
+export default SendEmailButton;
