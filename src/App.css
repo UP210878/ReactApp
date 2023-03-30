@@ -133,3 +133,50 @@ background-color: black !important;
   line-height: 20px;
   margin: 0;
 }
+
+/* COLORS */
+.color_text_Content {
+  color: #232323;
+}
+
+/* 1260px */
+@media only screen and (min-width: 78.75em) {
+  .container {
+    width: 100%;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 96%;
+  }
+  /* TITLES */
+
+  .content_Text_Title {
+    margin: 0;
+    font-family: "Armin Grotesk Black";
+    font-size: 99px;
+    line-height: 103px;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+  .content_Text_Subtitle {
+    margin: 0;
+    font-family: "Armin Grotesk Black";
+    font-size: 34.3321px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+}
