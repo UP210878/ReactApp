@@ -24,7 +24,7 @@ export const SendEmailButton = () => {
           stroke-linejoin="arcs"
         ></path>
       </svg>
-      <span class="text-white footer_text_Hermes">Send us an email</span>
+      <span class="text-white footer_text_Hermes">{language === "en"? 'Send us an email':'Envianos un correo'}</span>
     </button>
   );
 };

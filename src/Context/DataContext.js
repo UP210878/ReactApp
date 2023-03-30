@@ -12,7 +12,7 @@ export const DataProvider = ({ children }) => {
     }
   };
   return <DataContext.Provider value={{language,HandleLanguage,setLanguage}}>
-    <h2>Current Language: {language}</h2>{children}</DataContext.Provider>;
+  {children}</DataContext.Provider>;
 };
 
 export default DataContext;
