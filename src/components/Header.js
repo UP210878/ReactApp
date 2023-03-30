@@ -15,7 +15,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div class="hidden md:flex md:flex-row justify-between color_text_Subdued">
+        <div class="md:flex md:flex-row justify-between color_text_Subdued">
           <div class="mx-2">
             <p
               onClick={HandleLanguage}

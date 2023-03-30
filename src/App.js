@@ -12,7 +12,7 @@ export default function App() {
     <DataProvider>
       <Router>
         <Header />
-        <div>
+        <div class="flex flex-col min-h-screen">
           <Routes>
             <Route path="/" element={<CurrentlyDown/>} />
           </Routes>

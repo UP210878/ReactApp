@@ -7,7 +7,7 @@ const CurrentlyDown = () => {
   const { language } = useContext(DataContext);
   return (
     <>
-      <div class="p-5">
+      <div class="p-5 flex-1">
         <section class="p-20 mt-5">{Home()}</section>
         <div class="mx-5 px-3">
         <div class="px-5 mx-5 space-x-3">
