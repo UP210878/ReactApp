@@ -62,6 +62,8 @@ background-color: black !important;
 }
 }
 
+
+
 @media only screen and (min-width: 45em){
 .header_Text, .header_Text_Selected {
     font-family: Armin Grotesk Black;
@@ -214,22 +216,28 @@ background-color: black !important;
   font-family: Armin Grotesk Ultrabold;
   src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
 }
+@media screen and (min-width: 420px){
+  .circle {
+    border: 5px #61dafb;
+    border-color: #61dafb;
+    border-style: solid;
+    overflow: visible;
+    border-radius: 50%;
+    position: fixed;
+    top: -40%;
+    left: -2%;
+    width: 90%;
+    height: 180%;
+  }}
 
-.circle {
-  float: left;
-  width: 1800px;
-  height: 1800px;
-  margin: 20px;
-  shape-outside: circle();
-  clip-path: circle();
-  background: white;
-  border-radius: 50%;
-  border: solid 3px #4893ff !important;
-  overflow:visible;
+.contents {
+  position: absolute;
+}
+
+#wrapper{
   position: relative;
-  left: -400px;
-  top: -600px; /* Evitar que el contenido se visualice fuera del borde*/
-
+  width: 200px;
+  height: 200px;
 }
 
 .badge {
