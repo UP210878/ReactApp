@@ -4,7 +4,7 @@ import DataContext from "../Context/DataContext";
 
 export const SendEmailButton = () => {
   const {language} = useContext(DataContext)
-  return (
+  return (<a href="mailto:hey@hermescorp.io" rel="noreferrer" target={'_blank'}>
     <button
       type="button"
       class="transition ease-in-out delay-100 hover:scale-110 inline-flex outline-none focus:outline-none tracking-wide space-x-3 items-center px-3 py-2.5 bg-blue-400 hover:bg-blue-600 rounded-2xl drop-shadow-md"
@@ -25,7 +25,7 @@ export const SendEmailButton = () => {
         ></path>
       </svg>
       <span class="text-white footer_text_Hermes">{language === "en"? 'Send us an email':'Envianos un correo'}</span>
-    </button>
+    </button></a>
   );
 };
 
