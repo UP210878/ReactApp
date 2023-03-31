@@ -70,6 +70,20 @@ background-color: black !important;
     text-transform: uppercase;
 }}
 
+@media only screen and (max-width: 420px) {
+  .content_Text_Title{
+    font-size: 35px!important;
+    line-height: 35px!important;
+    text-align: start!important;
+  }
+  .content_Text_Subtitle{
+    font-size: 20px!important;
+    line-height: 20px!important;
+    margin-bottom: 10px!important;
+    margin-top: 50px!important;
+  }
+}
+
 .header_Text {
   color: #b5b5b5;
 }
@@ -142,6 +156,8 @@ background-color: black !important;
   text-transform: uppercase;
   text-align: start;
 }
+
+
 
 /* 1260px */
 @media only screen and (min-width: 78.75em) {

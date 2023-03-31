@@ -8,10 +8,10 @@ const CurrentlyDown = () => {
   return (
     <>
       <div class="p-5">
-        <div class="p-20 mt-5">
+        <div class="lg:p-20 lg:mt-5 pt-5 sm:mt-5 md:mt-5">
         <section>{Home()}
 
-        <div class="space-x-3 mt-4 mx-4 px-5">
+        <div class="lg:space-x-3 mt-4 lg:mx-1 lg:px-20">
           {SendEmailButton()} {LinkedinButton()}
         </div></section></div>
       </div>
