@@ -161,6 +161,15 @@
   text-align: start;
 }
 
+.content_Text_Title_Espanol {
+  margin: 0;
+  font-family: Armin Grotesk Black;
+  font-size: 5vw;
+  line-height: 5vw;
+  text-transform: uppercase;
+  text-align: start;
+}
+
 .content_Text_Subtitle {
   margin: 0;
   font-family: Armin Grotesk Black;
@@ -193,6 +202,14 @@
   /* TITLES */
 
   .content_Text_Title {
+    margin: 0;
+    font-family: Armin Grotesk Black;
+    font-size: 5vw;
+    line-height: 5vw;
+    text-transform: uppercase;
+    text-align: start;
+  }
+  .content_Text_Title_Espanol {
     margin: 0;
     font-family: Armin Grotesk Black;
     font-size: 5vw;
