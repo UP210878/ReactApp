@@ -1,3 +1,4 @@
+/*App*/
 .App {
   text-align: center;
 }
@@ -41,6 +42,9 @@
   }
 }
 
+
+/*Header*/
+
 .headerColor {
   -webkit-backdrop-filter: blur(7px);
   backdrop-filter: blur(7px);
@@ -56,58 +60,12 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 45em) {
-  .header_Text_Selected {
-    color: #232323;
-    cursor: pointer;
-  }
-}
-
-@media only screen and (min-width: 45em) {
-  .header_Text,
-  .header_Text_Selected {
-    font-family: Armin Grotesk Black;
-    font-size: 14px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-}
-
-@media only screen and (max-width: 520px) {
-  .content_Text_Title {
-    font-size: 8vw !important;
-    line-height: 8.5vw !important;
-    text-align: start !important;
-  }
-  .content_Text_Subtitle {
-    font-size: 4.5vw !important;
-    line-height: 5.5vw !important;
-    margin-bottom: 10px !important;
-  }
-  .content_Text_Title_Espanol {
-    margin: 0;
-    font-family: Armin Grotesk Black;
-    font-size: 6.8vw!important;
-    line-height: 6.6vw!important;
-    margin-bottom: -2px!important;
-  }
-}
-
 .header_Text {
   color: #b5b5b5;
 }
+
 .header_Text_Selected {
   color: #232323;
-}
-
-.footerColor {
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
-  background: linear-gradient(
-    90deg,
-    rgba(65, 192, 240, 0.9) -45.79%,
-    rgba(47, 82, 160, 0.9) 153.58%
-  );
 }
 
 .header_Text,
@@ -118,6 +76,8 @@
   margin: 0;
   text-transform: uppercase;
 }
+
+/*Text and Footer*/
 .footer_Text_Hermes,
 .text_Body {
   font-family: Armin Grotesk Ultralight;
@@ -130,10 +90,7 @@
   text-transform: uppercase;
 }
 
-.color_Text_Base_Backgorund {
-  color: #fafafa;
-}
-
+/*Footer*/
 .footer_Text_Hermes {
   font-size: 19px;
   line-height: 27px;
@@ -147,21 +104,27 @@
   margin: 1;
 }
 
+.footerColor {
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 192, 240, 0.9) -45.79%,
+    rgba(47, 82, 160, 0.9) 153.58%
+  );
+}
+
 /* COLORS */
 .color_text_Content {
   color: #232323;
 }
 
-.content_Text_Title {
-  margin: 0;
-  font-family: Armin Grotesk Black;
-  font-size: 5vw;
-  line-height: 5vw;
-  text-transform: uppercase;
-  text-align: start;
+.color_Text_Base_Backgorund {
+  color: #fafafa;
 }
 
-.content_Text_Title_Espanol {
+/*Content*/
+.content_Text_Title {
   margin: 0;
   font-family: Armin Grotesk Black;
   font-size: 5vw;
@@ -177,6 +140,16 @@
   line-height: 3vw;
   text-transform: uppercase;
   text-align: start;
+}
+
+.contents {
+  position: absolute;
+}
+
+#wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 /* 1260px */
@@ -209,14 +182,6 @@
     text-transform: uppercase;
     text-align: start;
   }
-  .content_Text_Title_Espanol {
-    margin: 0;
-    font-family: Armin Grotesk Black;
-    font-size: 5vw;
-    line-height: 5vw;
-    text-transform: uppercase;
-    text-align: start;
-  }
 
   .content_Text_Subtitle {
     margin: 0;
@@ -227,6 +192,37 @@
     text-align: start;
   }
 }
+
+@media only screen and (min-width: 45em) {
+  .header_Text_Selected {
+    color: #232323;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  .header_Text,
+  .header_Text_Selected {
+    font-family: Armin Grotesk Black;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .content_Text_Title {
+    font-size: 8vw !important;
+    line-height: 8.5vw !important;
+    text-align: start !important;
+  }
+  .content_Text_Subtitle {
+    font-size: 5vw !important;
+    line-height: 5.5vw !important;
+    margin-bottom: 10px !important;
+  }
+}
+
 @media screen and (min-width:520px){
   .alignscreen {
     display: flex !important;
@@ -256,20 +252,6 @@
   }
 }
 
-@font-face {
-  font-family: Armin Grotesk Black;
-  src: url(./Fonts/Armin\ Grotesk\ Black.otf);
-}
-
-@font-face {
-  font-family: Armin Grotesk Ultralight;
-  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Light.otf);
-}
-
-@font-face {
-  font-family: Armin Grotesk Ultrabold;
-  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
-}
 @media screen and (min-width: 420px) {
   .circle {
     border: 5px #61dafb;
@@ -285,12 +267,18 @@
   }
 }
 
-.contents {
-  position: absolute;
+/*Fonts*/
+@font-face {
+  font-family: Armin Grotesk Black;
+  src: url(./Fonts/Armin\ Grotesk\ Black.otf);
 }
 
-#wrapper {
-  position: relative;
-  width: 200px;
-  height: 200px;
+@font-face {
+  font-family: Armin Grotesk Ultralight;
+  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Light.otf);
+}
+
+@font-face {
+  font-family: Armin Grotesk Ultrabold;
+  src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
 }
