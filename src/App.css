@@ -80,9 +80,16 @@
     text-align: start !important;
   }
   .content_Text_Subtitle {
-    font-size: 5vw !important;
+    font-size: 4.5vw !important;
     line-height: 5.5vw !important;
     margin-bottom: 10px !important;
+  }
+  .content_Text_Title_Espanol {
+    margin: 0;
+    font-family: Armin Grotesk Black;
+    font-size: 6.7vw;
+    line-height: 6.5vw;
+    margin-bottom: -2px;
   }
 }
 
