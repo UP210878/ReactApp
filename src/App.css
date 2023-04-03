@@ -25,7 +25,7 @@
 }
 
 .bg-dark {
-background-color: black !important;
+  background-color: black !important;
 }
 
 .App-link {
@@ -48,40 +48,41 @@ background-color: black !important;
   width: 100%;
 }
 
-.header_Text, .header_Text_Selected{
+.header_Text,
+.header_Text_Selected {
   font-family: Armin Grotesk Black;
   font-size: 14px;
   margin: 0;
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 45em){
-.header_Text_Selected {
-  color: #232323;
-  cursor: pointer;
+@media only screen and (min-width: 45em) {
+  .header_Text_Selected {
+    color: #232323;
+    cursor: pointer;
+  }
 }
-}
 
-
-
-@media only screen and (min-width: 45em){
-.header_Text, .header_Text_Selected {
+@media only screen and (min-width: 45em) {
+  .header_Text,
+  .header_Text_Selected {
     font-family: Armin Grotesk Black;
     font-size: 14px;
     margin: 0;
     text-transform: uppercase;
-}}
-
-@media only screen and (max-width: 420px) {
-  .content_Text_Title{
-    font-size: 35px!important;
-    line-height: 35px!important;
-    text-align: start!important;
   }
-  .content_Text_Subtitle{
-    font-size: 20px!important;
-    line-height: 20px!important;
-    margin-bottom: 10px!important;
+}
+
+@media only screen and (max-width: 520px) {
+  .content_Text_Title {
+    font-size: 8vw !important;
+    line-height: 8.5vw !important;
+    text-align: start !important;
+  }
+  .content_Text_Subtitle {
+    font-size: 5vw !important;
+    line-height: 5.5vw !important;
+    margin-bottom: 10px !important;
   }
 }
 
@@ -95,17 +96,23 @@ background-color: black !important;
 .footerColor {
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
-  background: linear-gradient(90deg,rgba(65,192,240,.9) -45.79%,rgba(47,82,160,.9) 153.58%);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 192, 240, 0.9) -45.79%,
+    rgba(47, 82, 160, 0.9) 153.58%
+  );
 }
 
-.header_Text, .header_Text_Selected {
+.header_Text,
+.header_Text_Selected {
   cursor: pointer;
   font-family: Armin Grotesk Black;
   font-size: 20px;
   margin: 0;
   text-transform: uppercase;
 }
-.footer_Text_Hermes, .text_Body {
+.footer_Text_Hermes,
+.text_Body {
   font-family: Armin Grotesk Ultralight;
 }
 
@@ -115,8 +122,6 @@ background-color: black !important;
   margin: 0;
   text-transform: uppercase;
 }
-
-
 
 .color_Text_Base_Backgorund {
   color: #fafafa;
@@ -132,7 +137,7 @@ background-color: black !important;
   font-family: Armin Grotesk Ultralight;
   font-size: 15px;
   line-height: 20px;
-  margin: 0;
+  margin: 1;
 }
 
 /* COLORS */
@@ -143,8 +148,8 @@ background-color: black !important;
 .content_Text_Title {
   margin: 0;
   font-family: Armin Grotesk Black;
-  font-size: 99px;
-  line-height: 103px;
+  font-size: 5vw;
+  line-height: 5vw;
   text-transform: uppercase;
   text-align: start;
 }
@@ -152,13 +157,11 @@ background-color: black !important;
 .content_Text_Subtitle {
   margin: 0;
   font-family: Armin Grotesk Black;
-  font-size: 34.3321px;
-  line-height: 40px;
+  font-size: 3vw;
+  line-height: 3vw;
   text-transform: uppercase;
   text-align: start;
 }
-
-
 
 /* 1260px */
 @media only screen and (min-width: 78.75em) {
@@ -185,8 +188,8 @@ background-color: black !important;
   .content_Text_Title {
     margin: 0;
     font-family: Armin Grotesk Black;
-    font-size: 99px;
-    line-height: 103px;
+    font-size: 5vw;
+    line-height: 5vw;
     text-transform: uppercase;
     text-align: start;
   }
@@ -194,12 +197,17 @@ background-color: black !important;
   .content_Text_Subtitle {
     margin: 0;
     font-family: Armin Grotesk Black;
-    font-size: 34.3321px;
-    line-height: 40px;
+    font-size: 2vw;
+    line-height: 3vw;
     text-transform: uppercase;
     text-align: start;
   }
+}
 
+.alignscreen {
+  display: flex !important;
+  justify-content: center!important;
+  align-items: center!important;
 }
 
 @font-face {
@@ -216,7 +224,7 @@ background-color: black !important;
   font-family: Armin Grotesk Ultrabold;
   src: url(./Fonts/Armin\ Grotesk\ Ultra\ Bold.otf);
 }
-@media screen and (min-width: 420px){
+@media screen and (min-width: 420px) {
   .circle {
     border: 5px #61dafb;
     border-color: #61dafb;
@@ -228,28 +236,15 @@ background-color: black !important;
     left: -2%;
     width: 90%;
     height: 180%;
-  }}
+  }
+}
 
 .contents {
   position: absolute;
 }
 
-#wrapper{
+#wrapper {
   position: relative;
   width: 200px;
   height: 200px;
-}
-
-.badge {
-  height: 2100px;
-  width: 2100px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  background: white;
-  border: solid 3px #4893ff;
-  position: sticky;
-  left: -80px;
-  top: -100px;
 }

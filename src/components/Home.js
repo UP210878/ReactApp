@@ -5,9 +5,9 @@ import '../App.css'
 const Home = () => {
   const {language} = useContext(DataContext);
   return (
-    <div className="container color_text_Content lg:pt-5">
-      <div className="row lg:mt-5 lg:pt-5">
-        <div className="col-6 lg:mt-5 lg:pt-5">
+    <div className="container content-center color_text_Content lg:pt-5">
+      <div className="row">
+        <div className="col-6 ">
           <div className="content_Text_Subtitle">
             <p className="home.heading.Sub">{language === "en"?"SORRY WE'RE CURRENTLY DOWN":"LAMENTAMOS ESTAR INACTIVOS"}</p>
           </div>

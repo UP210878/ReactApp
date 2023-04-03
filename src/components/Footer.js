@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer
       className={
-        "footerColor p-5 w-full flex flex-col h-10 lg:fixed bottom-0 justify-between items-center h-[144px] md:h-[97px] md:flex-row"
+        "footerColor p-4 w-full flex flex-col h-10 fixed bottom-0 justify-between items-center h-[144px] md:h-1 md:flex-row"
       }
     >
-      <div className="flex space-x-2 md:mx-7 mx-2">
+      <div className="flex space-x-2 md:mx-7 mx-3">
         <HermesLogo width={"27.17"} height={"29.08"} fill={"#FAFAFA"} />
         <p className="footer_Text_Hermes color_Text_Base_Backgorund text-white">
           HERMES CORP.
