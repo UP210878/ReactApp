@@ -211,6 +211,26 @@
   }
 }
 
+@media screen and (max-width:520px) {
+  .footer_Text_Hermes {
+    font-size: 17px;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+  .footer_Text_Address {
+    font-family: Armin Grotesk Ultralight;
+    font-size: 14px;
+    text-align: justify!important;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .mobilefooterSize{
+  height: 5.5rem!important;
+  padding: 0.75rem!important;
+  }
+}
 
 @font-face {
   font-family: Armin Grotesk Black;
