@@ -203,12 +203,14 @@
     text-align: start;
   }
 }
-
-.alignscreen {
-  display: flex !important;
-  justify-content: center!important;
-  align-items: center!important;
+@media screen and (min-width:520px){
+  .alignscreen {
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+  }
 }
+
 
 @font-face {
   font-family: Armin Grotesk Black;
